@@ -5,7 +5,7 @@
   padding-top: 150px;
 }
 .bg-2 {
-  background-color:  #fe553d; 
+  background-color: #fe553d; 
   color: #ffffff;
 }
 .bg-3 {
@@ -50,6 +50,16 @@
 }
 #aboutme li:last-child {
   padding-bottom: 25px;
+}
+
+/* Projects Section */
+#projects a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+} 
+#projects a:hover {
+  color: grey;
 }
 
 /* Contact form */
@@ -102,4 +112,9 @@ input[type='submit']:hover {
 }
 .footer a:hover {
   color: #fe553d;
+}
+
+/* Media only screens */
+@media only screen and (max-width: 767px) {
+  #pong {display:none!important;}
 }
